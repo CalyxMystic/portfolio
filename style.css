@@ -1,13 +1,56 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   margin: 0;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
 }
-header {
-  background: black;
+/* HEADER */
+.hero {
+  background: #222;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 40px 20px;
 }
+/* NAVIGATION */
+nav {
+  background: #444;
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* SECTIONS */
 section {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
   padding: 20px;
+  border-radius: 8px;
+}
+/* PROJECT CARDS */
+.card {
+  background: #eee;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+/* SKILLS LIST */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 40px;
 }
